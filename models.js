@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+
 const blogPostSchema = mongoose.Schema({
   author: {
     firstName: String,
